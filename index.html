@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Mi Portafolio</title>
+    <style>
+        .vertical-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        body {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#acerca-de-mi">Acerca de mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resumen-habilidades">Resumen de habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Secciones -->
+    <section id="acerca-de-mi">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 vertical-center">
+                    <h2>Elian Tito</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+                </div>
+                <div class="col-sm-6 vertical-center">
+                    <img src="me.png" alt="Elian Tito" class="mx-auto d-block">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resumen-habilidades">
+        <h2 class="text-center">Habilidades</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 vertical-center">
+                    <img src="habilidad1.png" alt="CSS" class="mx-auto d-block" style="max-width: 150px;">
+                </div>
+                <div class="col-sm-6 vertical-center">
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 vertical-center">
+                    <img src="habilidad2.png" alt="HTML" class="mx-auto d-block" style="max-width: 150px;">
+                </div>
+                <div class="col-sm-6 vertical-center">
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 vertical-center">
+                    <img src="habilidad3.png" alt="JavaScript" class="mx-auto d-block" style="max-width: 150px;">
+                </div>
+                <div class="col-sm-6 vertical-center">
+                    <h3>JavaScript</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portafolio">
+        <h2 class="text-center">Portafolio</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="portafolio1.jpg" alt="Portafolio 1" class="mx-auto d-block">
+                    <h3 class="text-center">Título 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">VER</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="portafolio2.jpg" alt="Portafolio 2" class="mx-auto d-block">
+                    <h3 class="text-center">Título 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">VER</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="portafolio3.jpg" alt="Portafolio 3" class="mx-auto d-block">
+                    <h3 class="text-center">Título 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal3">VER</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="servicios">
+        <h2 class="text-center">Servicios</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="servicio1.jpg" alt="Servicio 1" class="mx-auto d-block">
+                    <h3 class="text-center">Título 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal4">VER</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="servicio2.jpg" alt="Servicio 2" class="mx-auto d-block">
+                    <h3 class="text-center">Título 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal5">VER</button>
+                </div>
+                <div class="col-sm-4">
+                    <img src="servicio3.jpg" alt="Servicio 3" class="mx-auto d-block">
+                    <h3 class="text-center">Título 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal6">VER</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2 class="text-center">Contacto</h2>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Tu
